@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fffaf2;
+}
+h1 {
+    color: brown;
+    text-align:center;
+    padding: 20px;
+    font-size: 32px;
+}
+h2{
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+nav a {
+    margin: 0 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+section {
+    padding: 40px 20px;
+    background-color: #ffe5b4;
+}
+tr{
+    height: 40px;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+footer p {
+    margin: 0;
+}
+nav {
+    background-color: #d6c4a8;
+    padding: 10px 10px;
+    text-align: center;
+}
+main {
+    margin-top: 20px;
+}
+nav a:hover {
+    color: rgb(6, 107, 95);
+}
+section h2 {
+    color: #d2691e;
+}
+section p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+section#reviews div {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #fff0d4;
+    border-left: 4px solid #ffa500;
+}
+section#reviews p {
+    margin: 0;
+    font-style: italic;
+}
+
+table {
+    width:50%;
+    margin-top:10px;
+    margin: 0 auto;
+    background-color: #fff0d4ed;
+}
+th,td {
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+    background-color: #fff6e0;
+}
+tr td:first-child b {
+    display: block;
+    padding: 5px 0;
+}
+tr:hover {
+    background-color: #ffe0b3;
+}
+th{
+    background-color: #f2a36bc0;
+}
+.home {
+    background-color: #ffe5b4;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.home h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.home p {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #7b2e00;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #a84300;
+}
+
+.highlights {
+    background-color: #fffaf2;
+    text-align: center;
+}
+
+.highlight-box p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+main section:nth-child(even) {
+    background-color: #fffaf2;   /* soft white */
+}
+main section:nth-child(odd) {
+    background-color: #ffe5b4;   /* light cream */
+}
+
+
+
+
+
+
